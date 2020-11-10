@@ -31,7 +31,6 @@ body{
 	left: 202px;
 	margin-top: 0px;
 	transition: transform 1s;
-	/*animation: roofHop 1s infinite alternate;*/
 }
 
 @keyframes roofHop {
@@ -111,7 +110,7 @@ body{
 	left: 50px;
 	border-radius: 50%;
 }
-.wleft:after{
+.wleft::after{
 	content: '';
 	position: absolute;
 	width: 3px;
@@ -120,7 +119,7 @@ body{
 	left: 38px;
 	background: #cf5b83;
 }
-.glassl:after{
+.glassl::after{
 	content: '';
 	position: absolute;
 	width: 80px;
@@ -131,7 +130,7 @@ body{
 	border-left: transparent;
 	border-right: transparent;
 }
-.wright:after{
+.wright::after{
 	content: '';
 	position: absolute;
 	width: 3px;
@@ -140,7 +139,7 @@ body{
 	left: 38px;
 	background: #cf5b83;
 }
-.glassr:after{
+.glassr::after{
 	content: '';
 	position: absolute;
 	width: 80px;
@@ -190,7 +189,7 @@ body{
 	transform-origin: left bottom;
 	animation: grassAnime 5s ease-in-out infinite alternate-reverse;
 }
-.grassone:after{
+.grassone::after{
 	content: '';
 	position: absolute;
 	width: 10px;
@@ -210,7 +209,7 @@ body{
 	border-radius: 60% 50% 40% 40%/ 60% 70% 20% 10%;
 	transition: transform 0.1s;
 }
-.grasstwo:after{
+.grasstwo::after{
 	content: '';
 	position: absolute;
 	width: 10px;
@@ -230,7 +229,7 @@ body{
 	border-radius: 80% 40% 40% 50%/ 60% 80% 20% 10%;
 	transition: transform 0.1s;
 }
-.grassthree:after{
+.grassthree::after{
 	content: '';
 	position: absolute;
 	width: 10px;
@@ -250,7 +249,7 @@ body{
 	border-radius: 80% 40% 30% 50%/ 40% 80% 10% 30%;
 	transition: transform 0.1s;
 }
-.grassfour:after{
+.grassfour::after{
 	content: '';
 	position: absolute;
 	width: 10px;
@@ -270,7 +269,7 @@ body{
 	border-radius: 70% 20% 30% 50%/ 40% 80% 10% 30%;
 	transition: transform 0.1s;
 }
-.grassfive:after{
+.grassfive::after{
 	content: '';
 	position: absolute;
 	width: 10px;
@@ -290,7 +289,7 @@ body{
 	border-radius: 60% 50% 40% 40%/ 60% 70% 20% 10%;
 	transition: transform 0.1s;
 }
-.grasssix:after{
+.grasssix::after{
 	content: '';
 	position: absolute;
 	width: 10px;
@@ -310,7 +309,7 @@ body{
 	border-radius: 80% 40% 40% 50%/ 60% 80% 20% 10%;
 	transition: transform 0.1s;
 }
-.grassseven:after{
+.grassseven::after{
 	content: '';
 	position: absolute;
 	width: 10px;
@@ -330,7 +329,7 @@ body{
 	border-radius: 80% 40% 30% 50%/ 40% 80% 10% 30%;
 	transition: transform 0.1s;
 }
-.grasseight:after{
+.grasseight::after{
 	content: '';
 	position: absolute;
 	width: 10px;
@@ -350,7 +349,7 @@ body{
 	border-radius: 60% 50% 40% 40%/ 60% 70% 20% 10%;
 	transition: transform 0.1s;
 }
-.grassnine:after{
+.grassnine::after{
 	content: '';
 	position: absolute;
 	width: 10px;
@@ -370,7 +369,7 @@ body{
 	border-radius: 80% 40% 40% 50%/ 60% 80% 20% 10%;
 	transition: transform 0.1s;
 }
-.grassten:after{
+.grassten::after{
 	content: '';
 	position: absolute;
 	width: 10px;
@@ -390,7 +389,7 @@ body{
 	border-radius: 80% 40% 30% 50%/ 40% 80% 10% 30%;
 	transition: transform 0.1s;
 }
-.grasseleven:after{
+.grasseleven::after{
 	content: '';
 	position: absolute;
 	width: 10px;
@@ -410,7 +409,7 @@ body{
 	border-radius: 70% 20% 30% 50%/ 40% 80% 10% 30%;
 	transition: transform 0.1s;
 }
-.grasstwelve:after{
+.grasstwelve::after{
 	content: '';
 	position: absolute;
 	width: 10px;
@@ -431,7 +430,7 @@ body{
 	transition: transform 0.1s;
 }
 
-.grassthirteen:after{
+.grassthirteen::after{
 	content: '';
 	position: absolute;
 	width: 10px;
@@ -451,7 +450,7 @@ body{
 	border-radius: 80% 40% 40% 50%/ 60% 80% 20% 10%;
 	transition: transform 0.1s;
 }
-.grassfourteen:after{
+.grassfourteen::after{
 	content: '';
 	position: absolute;
 	width: 10px;
@@ -471,7 +470,7 @@ body{
 	border-radius: 80% 40% 30% 50%/ 40% 80% 10% 30%;
 	transition: transform 0.1s;
 }
-.grassfifteen:after{
+.grassfifteen::after{
 	content: '';
 	position: absolute;
 	width: 10px;
@@ -491,7 +490,7 @@ body{
 	border-radius: 70% 20% 30% 50%/ 40% 80% 10% 30%;
 	transition: transform 1s;
 }
-.grasssixteen:after{
+.grasssixteen::after{
 	content: '';
 	position: absolute;
 	width: 10px;
@@ -511,7 +510,7 @@ body{
 	border-radius: 60% 50% 40% 40%/ 60% 70% 20% 10%;
 	transition: transform 0.1s;
 }
-.grassseventeen:after{
+.grassseventeen::after{
 	content: '';
 	position: absolute;
 	width: 10px;
@@ -531,7 +530,7 @@ body{
 	border-radius: 80% 40% 40% 50%/ 60% 80% 20% 10%;
 	transition: transform 0.1s;
 }
-.grasseighteen:after{
+.grasseighteen::after{
 	content: '';
 	position: absolute;
 	width: 10px;
@@ -551,7 +550,7 @@ body{
 	border-radius: 80% 40% 30% 50%/ 40% 80% 10% 30%;
 	transition: transform 0.1s;
 }
-.grassnineteen:after{
+.grassnineteen::after{
 	content: '';
 	position: absolute;
 	width: 10px;
@@ -571,7 +570,7 @@ body{
 	border-radius: 60% 50% 40% 40%/ 60% 70% 20% 10%;
 	transition: transform 0.1s;
 }
-.grasstwenty:after{
+.grasstwenty::after{
 	content: '';
 	position: absolute;
 	width: 10px;
